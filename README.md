@@ -1,4 +1,4 @@
 # Mini-Portfolio
 
-## Portfolio Link:(https://harshrajpf.netlify.app/)
+## Portfolio Link: https://harshrajpf.netlify.app/
 
