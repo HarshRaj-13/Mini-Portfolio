@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="./assets/final.png" type="favicon" sizes=" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="scrollreveal.min.js"></script>
+  </head>
+  <body>
+
+    <section class="hero">
+      <img
+        id="toggleTheme"
+        class="theme-btn"
+        src="assets/theme_light.png"
+        alt="theme icon"
+      />
+      <div class="hero-pic">
+        <div class="inner-circle"></div>
+        <img
+          src="./assets/me jpg.jpg"
+          alt="Harsh Raj"
+        />
+      </div>
+
+      <div class="hero-info">
+        <h1>Harsh Raj</h1>
+        <h2>Frontend Developer</h2>
+        <div class="logo-container">
+          <a href="https://github.com/HarshRaj-13"
+            ><img src="assets/Github.gif" alt="github logoo"
+          /></a>
+          <a href="https://www.linkedin.com/in/harshraj130102/"
+            ><img src="assets/Linkedin.gif" alt="linkedin logoo"
+          /></a>
+          <a href="https://leetcode.com/HarshRaj130102/"
+            ><img src="./assets/Leetcode.gif" alt="Leetcode"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <div class="container">
+          <div class="common-container">
+            <h4>Career</h4>
+            <p>&nbsp 1+ years Frontend Development</p>
+          </div>
+          <div class="common-container">
+            <h4>Education</h4>
+            <p>4th-Year <br> B.Tech Undergrad</p>
+          </div>
+        </div>
+      </section>
+
+
+    <section class="cta">
+      <a href="assets/HarshRaj[resume].pdf" download>
+        <button class="btn download-btn">Resume 📩</button>
+      </a>
+      <a href="https://www.instagram.com/harshraj130102/">
+        <button class="btn contact-btn">Contact Me</button>
+      </a>
+    </section>
+    <section class="portfolio-skills">
+      <div class="btn-bg">
+        <button class="btn-2 active-btn" id="portfolio-btn">Portfolio</button>
+        <button class="btn-2" id="skills-btn">Skills</button>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/HarshRaj-13/EvolveX"
+          ><img src="assets/EvolveX.png" alt="Project 1"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/HarshRaj-13/PyGuard-"
+          ><img src="assets/PyGaurd.jpg" alt="Project 2"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/HarshRaj-13/article-summarizer"
+          ><img src="assets/Summarizer.png" alt="Project 3"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/HarshRaj-13/chat_application"
+          ><img src="assets/ChatApp.png " alt="Project 4"
+        /></a>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h3>Language and Core Subjects</h3>
+        <article class="frontend-skills">
+          <p>Java</p>
+          <p>JavaScript</p>
+          <p>DSA</p>
+          <p>System Design</p>
+          <p>OS</p>
+          <p>DBMS</p>
+          <p>OOPs</p>
+          <p>Computer Network</p>
+        </article>
+      </div>
+      <div class="wrapper">
+        <h3>Web-Dev and Database</h3>
+        <article class="dsa-skills">
+          <p>HTML5</p>
+          <p>CSS3</p>
+          <p>Tailwind CSS</p>
+          <p>React.Js</p>
+          <p>Redux</p>
+          <p>APIs</p>
+          <p>MySQL</p>
+          <p>GitHub</p>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright | &copy HarshRaj-13</p>
+    </footer>
+  </body>
+</html>
